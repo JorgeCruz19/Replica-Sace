@@ -1,0 +1,129 @@
+/* Estilos generales */
+html,
+body {
+    height: 100%;
+}
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+header {
+    min-height: 100vh;
+    background: linear-gradient(to right, #000000a6, #000000a6), url(../img/header.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+/* Clases utilitarias */
+
+.bg-primary {
+    background-color: #347b96 !important;
+}
+.svgIcon{
+    max-width: 150px;
+    display: block;
+    text-align: center;
+    margin-left: 110px;
+}
+
+/* Clases del NAV */
+
+.nav-link {
+    color: white;
+    transition: all .2s ease;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white !important;
+}
+
+.name {
+    color: white;
+}
+
+.opaque-navbar {
+    background-color: transparent;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: white;
+    color: black !important;
+    transition: background-color .5s ease 0s;
+}
+
+.navbar-toggler {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-toggler:hover>.navbar-toggler-icons:nth-of-type(2),
+.navbar-toggler:hover>.navbar-toggler-icons:nth-of-type(3) {
+    width: 30px;
+}
+
+.navbar-toggler-icons:nth-of-type(1) {
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    padding: 2px;
+    margin: 3px;
+}
+
+.navbar-toggler-icons:nth-of-type(2) {
+    width: 15px;
+    height: 1px;
+    background-color: white;
+    padding: 2px;
+    margin: 3px;
+    transition: all .5s ease 0s;
+}
+
+.navbar-toggler-icons:nth-of-type(3) {
+    width: 25px;
+    height: 1px;
+    background-color: white;
+    padding: 2px;
+    margin: 3px;
+    transition: all .1s ease-in;
+}
+
+/* Clase de la seccion Acerca de */
+
+.acerca {
+    padding: 150px 0;
+}
+.info {
+    padding: 150px 0;
+}
+.acceso-publico {
+    padding: 150px 0;
+}
+.contacto {
+    padding: 150px 0;
+}
+
+/* Media Querys */
+
+@media(max-width: 768px) {
+    .opaque-navbar {
+        background-color: white;
+        transition: all .1s ease-in;
+    }
+
+    .nav-link {
+        color: black !important;
+    }
+
+    .name {
+        color: black !important;
+    }
+
+    .navbar-toggler {
+        background-color: #347b96 !important;
+    }
+}

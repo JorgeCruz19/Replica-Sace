@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Sace</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</head>
+	<body data-spy="scroll" data-target="#menu">
+		<div class="container-fluid p-0">
+			<nav id="menu" class="navbar fixed-top navbar-expand-md border-bottom nav-container opaque-navbar">
+				<a href="#inicio" class="navbar-brand mr-auto text-uppercase text-black font-weight-bold name">Sace</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+					<span class="navbar-toggler-icons"></span>
+					<span class="navbar-toggler-icons"></span>
+					<span class="navbar-toggler-icons"></span>
+				</button>
+				<div class="collapse navbar-collapse pt-1" id="nav">
+					<ul class="navbar-nav ml-auto nav-pills text-center text-uppercase font-weight-bold">
+						<li class="nav-item"><a href="#acerca_de" class="nav-link">Acerca de</a></li>
+						<li class="nav-item"><a href="#informacion" class="nav-link">Mas informacion</a></li>
+						<li class="nav-item"><a href="#acceso" class="nav-link">Accesos publicos</a></li>
+						<li class="nav-item"><a href="#contacto" class="nav-link">Contactanos</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<header class="d-flex justify-content-center align-items-center" id="inicio">
+				<div class="row ">
+					<div class="col-12 text-center text-white  font-weight-bold">
+						<h1 class="text-uppercase">Bievenidos a Sace</h1>
+						<hr class="mb-3 border w-50 border-primary bg-primary" />
+						<p class="">Sistema de Administracion de Centros Educativos</p>
+						<button class="btn btn-primary rounded text-uppercase p-2" data-toggle="modal" data-target="#sesionModal">Ingresar a sace</button>
+					</div>
+				</div>
+			</header>
+
+			<section class="acerca bg-primary" id="acerca_de">
+				<div class="container">
+					<div class="row py-5">
+						<div class="col-12 text-center text-white">
+							<h2 class="mb-5 ">¿Qué es SACE?</h2>
+							<p class="px-5 text-justify">
+								El Sistema de Administración de Centros Educativos (SACE), es la herramienta tecnológica que sirve para automatizar, sistematizar y
+								estandarizar los procesos de administración de centros educativos, así como lo relacionado con el registro, matrícula, evaluación y promoción
+								de los estudiantes a nivel nacional. Todo centro educativo de los niveles de educación pre básica, básica, media y superior no universitaria
+								de carácter oficial y no gubernamental que matricule, promueva, certifique y/o gradúe estudiantes en el país debe estar registrado y ser
+								administrado mediante la plataforma SACE.
+							</p>
+							<button class="btn btn-light rounded">Mas informacion</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="informacion" class="container info">
+				<div class="row text-center">
+					<!-- <div class="col-lg-12">
+						<hr class="border border-primary w-25">
+					</div> -->
+					<div class="col-12 col-lg-4 px-5">
+						<h2 class="mb-5">¿Quién usa SACE?</h2>
+						<p class="text-justify">
+							Las unidades de la Secretaría de Educación, Dirección Departamental de Educación, Unidad de Tecnología Informatica de Dirección Departamental,
+							Dirección Municipal y Distrital de Educación, PROHECO, Sub Dirección de Educación Pre-Básica, Sub Dirección de Educación Básica, Sub Dirección
+							de Educación Media, Coordinación de programas alternos (IHER, SAT, etc.), Director del Centro Educativo, Docentes, Padres de Familia, otras
+							instituciones gubernamentales.
+						</p>
+					</div>
+					<div class="col-12 col-lg-4 px-5">
+						<h2 class="mb-5">Funciones</h2>
+						<p class="text-justify">
+							El Sistema de Administración de Centros Educativos (SACE), es una herramienta tecnológica que sirve para automatizar, sistematizar y
+							estandarizar los proceso de administración de Centros Educativos, así como lo relacionado con el registro, matrícula, evaluación y promoción de
+							los estudiantes a nivel nacional; es por ello que se torna de suma importancia normar los procesos administrativos realizados desde la USINIEH
+							y las Unidades de Tecnología Informática en las Direcciones Departamentales.
+						</p>
+					</div>
+					<div class="col-12 col-lg-4 px-5">
+						<h2 class="mb-5">Beneficios</h2>
+						<p class="text-justify">
+							Planeación estratégica de la Secretaría de Educación, becas, mejor distribución de la cooperación externa, premiaciones a mejores alumnos,
+							bonos estatales, mejor gestión de documentos oficiales, validación de legalidad de Centros Educativos, mejor gestión de distribución de la
+							Alimentación Escolar, registro de la Asociación de Padres de Familia, registro de jornadas de desparasitación, entre otros.
+						</p>
+					</div>
+					<div class="col-lg-12">
+						<hr class="border border-primary w-50" />
+					</div>
+				</div>
+			</section>
+
+			<section id="acceso" class="container acceso-publico">
+				<div class="row">
+					<div class="col-12 text-center pb-5">
+						<h2>Accesos Públicos</h2>
+						<hr class="border border-primary w-25" />
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-12 col-lg-4">
+						<svg class="svgIcon" viewBox="0 0 200 200">
+							<path
+								d="m 194.88201,183.98472 v 11.79661 H 6.1362487 V 7.035566 H 17.932859 V 183.98472 H 194.88201 z"
+								id="path2996"
+								style="fill:#888888;fill-opacity:1"
+							></path>
+							<path
+								d="m 90.521088,72.550621 48.188782,12.038441 16.68115,-27.786547 15.1144,9.077861 0.78337,-47.0482 -41.13846,22.833077 15.1144,9.07786 -12.17668,20.298648 -46.184098,-11.554779 -49.547974,49.547978 8.340572,8.34057 44.824538,-44.824909 z"
+								id="path2994"
+								style="fill:#888888;fill-opacity:1"
+							></path>
+							<path
+								d="m 76.91591,172.18811 h 23.59322 V 87.204223 L 94.138592,85.614261 76.91591,102.83694 v 69.35117 z"
+								id="path2992"
+								style="fill:#f89a14;fill-opacity:1"
+							></path>
+							<path
+								d="m 41.52608,129.8862 v 42.30191 H 65.1193 V 114.63355 L 45.696181,134.05667 41.52608,129.8862 z"
+								id="path2990"
+								style="fill:#347b96;fill-opacity:1"
+							></path>
+							<path
+								d="m 147.69557,92.56099 v 79.62712 h 23.59322 V 80.107825 l -11.85412,-7.107827 -11.7391,19.560992 z"
+								id="path2988"
+								style="fill:#347b96;fill-opacity:1"
+							></path>
+							<path
+								d="M 135.89896,172.18811 V 96.051679 l -23.59322,-5.898303 v 82.034734 h 23.59322 z"
+								id="path3"
+								style="fill:#347b96;fill-opacity:1"
+							></path>
+						</svg>
+						<h3 class="mt-3">Resportes Estadisticos</h3>
+					</div>
+					<div class="col-lg-4">
+						<svg class="svgIcon" viewBox="0 0 200 200">
+							<g id="recuperar_acceso">
+								<g id="g3" transform="translate(0,-335.10023)">
+									<g transform="matrix(5.7949793,0,0,5.4058936,-1023.8466,-601.16816)" id="g3-4">
+										<g id="g8110" transform="matrix(0.09214148,0,0,0.08802565,175.80126,173.73553)">
+											<path
+												inkscape:connector-curvature="0"
+												style="fill:#347b96;fill-opacity:1"
+												id="path5"
+												d="m -216.75016,496.22825 c 0,-110.10301 104.20397,-199.35187 232.756515,-199.35187 128.552565,0 232.756535,89.24886 232.756535,199.35187 0,110.10078 -104.20397,199.35188 -232.756535,199.35188 -128.552545,0 -232.756515,-89.24886 -232.756515,-199.35188 z m 331.51967,212.94548 -197.513184,0 c -164.320316,0 -298.012156,114.50247 -298.012156,255.22197 l 0,206.9313 0.61882,3.2272 16.6764,4.4578 c 156.78971,41.9486 293.053813,55.951 405.192174,55.951 219.024696,0 345.956816,-53.4941 353.817816,-56.892 l 15.57513,-6.7709 1.64142,0.014 0,-206.91781 c 0,-140.7195 -133.68921,-255.22197 -297.99642,-255.22197 z M 412.76593,398.69702 c 128.5447,0 232.75653,-89.24886 232.75653,-199.35189 C 645.52246,89.248861 541.31325,0 412.76593,0 284.22385,0 180.00941,89.248861 180.00941,199.34513 c 0.003,110.10303 104.21444,199.35189 232.75652,199.35189 z m 98.75528,13.59135 -197.51057,0 c -4.71186,0 -9.3005,0.42446 -13.94945,0.61759 17.85635,32.10318 28.16112,67.87818 28.16112,105.76195 0,69.90836 -34.23646,132.9604 -88.9461,177.9318 128.01766,32.61522 225.87619,125.73127 248.14812,240.47629 188.78691,-7.06293 297.61621,-52.75298 304.85577,-55.88581 l 15.57513,-6.77098 1.64143,0.0269 0,-206.91785 c 0.0315,-140.72845 -133.66037,-255.2399 -297.97545,-255.2399 z"
+												transform="matrix(0.17256317,0,0,0.18498329,176.67822,111.20607)"
+											></path>
+											<path
+												id="path5-3"
+												d="m 361.796,209.654 c -7.887,0 -14.279,6.393 -14.279,14.275 0,81.342 -66.172,147.518 -147.519,147.518 -81.342,0 -147.515,-66.176 -147.515,-147.518 0,-76.521 58.575,-139.585 133.239,-146.796 l 0,32.863 c 0,5.099 2.725,9.812 7.137,12.362 2.21,1.274 4.677,1.914 7.139,1.914 2.466,0 4.927,-0.639 7.136,-1.914 l 82.904,-47.857 c 4.42,-2.548 7.137,-7.26 7.137,-12.361 0,-5.1 -2.717,-9.815 -7.137,-12.363 L 207.134,1.913 c -4.418,-2.551 -9.855,-2.551 -14.275,0 -4.412,2.548 -7.137,7.264 -7.137,12.363 l 0,34.212 c -90.426,7.298 -161.791,83.167 -161.791,175.44 0,97.085 78.984,176.07 176.066,176.07 97.088,0 176.071,-78.985 176.071,-176.07 0,-7.881 -6.389,-14.274 -14.272,-14.274 z"
+												inkscape:connector-curvature="0"
+												style="fill:#888888;fill-opacity:1"
+											></path>
+										</g>
+										<g transform="matrix(0.01063169,-0.00938102,0.01020444,0.00982738,180.3609,189.91542)" id="g8110-4">
+											<polygon id="polygon3" points="230.678,214.921 294.884,265.574 0.073,511.855 0.206,445.392 " style="fill:#f89a14;fill-opacity:1"></polygon>
+											<path
+												inkscape:connector-curvature="0"
+												id="path5-9"
+												d="m 468.441,43.486 c -57.97,-57.982 -151.973,-57.982 -209.955,0 -46.383,46.383 -55.652,115.83 -27.808,171.434 6.94,13.892 16.221,26.934 27.808,38.521 L 0.073,511.855 l 128.873,0.146 0,-62.677 62.689,0 0,-62.689 62.677,0 0,-62.677 42.695,-42.707 c 55.616,27.844 125.051,18.575 171.434,-27.808 57.982,-57.983 57.982,-151.975 0,-209.957 z m -40.467,103.957 c -17.53,17.53 -45.954,17.53 -63.485,0 -17.53,-17.53 -17.53,-45.954 0,-63.485 17.53,-17.53 45.955,-17.53 63.485,0 17.531,17.531 17.531,45.954 0,63.485 z"
+												style="fill:#f89a14;fill-opacity:1"
+											></path>
+										</g>
+									</g>
+								</g>
+								<g id="g7" transform="translate(0,-335.10023)"></g>
+								<g id="g9" transform="translate(0,-335.10023)"></g>
+								<g id="g11" transform="translate(0,-335.10023)"></g>
+								<g id="g13" transform="translate(0,-335.10023)"></g>
+								<g id="g15" transform="translate(0,-335.10023)"></g>
+								<g id="g17" transform="translate(0,-335.10023)"></g>
+								<g id="g19" transform="translate(0,-335.10023)"></g>
+								<g id="g21" transform="translate(0,-335.10023)"></g>
+								<g id="g23" transform="translate(0,-335.10023)"></g>
+								<g id="g25" transform="translate(0,-335.10023)"></g>
+								<g id="g27" transform="translate(0,-335.10023)"></g>
+								<g id="g29" transform="translate(0,-335.10023)"></g>
+								<g id="g31" transform="translate(0,-335.10023)"></g>
+								<g id="g33" transform="translate(0,-335.10023)"></g>
+								<g id="g35" transform="translate(0,-335.10023)"></g>
+							</g>
+						</svg>
+						<h3 class="mt-3">Reportes Estadisticos</h3>
+					</div>
+					<div class="col-lg-4">
+						<svg class="svgIcon" viewBox="0 0 200 200">
+							<g id="comunicado">
+								<g id="g3383" transform="matrix(0.33335963,0,0,0.26110949,244.9553,121.89364)"></g>
+								<g
+									inkscape:export-ydpi="58.247456"
+									inkscape:export-xdpi="58.247456"
+									id="g5"
+									transform="matrix(1.1617874,0,0,1.0983111,-191.54295,-195.04111)"
+								>
+									<rect
+										id="rect9"
+										height="66.989723"
+										width="63.900536"
+										style="opacity:0.98000004;fill:#888888;fill-opacity:1"
+										y="220.26883"
+										x="186.4839"
+									></rect>
+									<rect id="rect11" height="34.490166" width="40.583168" style="fill:#f89a14;fill-opacity:1" y="304.63721" x="279.76505"></rect>
+									<rect id="rect13" height="10.619932" width="158.52966" style="fill:#f89a14;fill-opacity:1" y="196.25107" x="172.53404"></rect>
+								</g>
+								<g id="g9374" transform="matrix(0.28236272,0,0,0.24934272,54.805972,74.338996)">
+									<path
+										sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccssssssssscccccssssssssscccccccssssscccssscccccccccccccccccccccccccccccc"
+										inkscape:connector-curvature="0"
+										id="path15"
+										d="m 74.787676,315.02301 158.586154,0 0,-34.37761 -158.586154,0 z m 0,88.9532 158.586154,0 0,-34.37761 -158.586154,0 z m 0,-44.47775 158.586154,0 0,-34.37761 -158.586154,0 z m -187.390186,-88.9532 158.583904,0 0,-34.37761 -158.583904,0 z m 0,133.43095 158.583904,0 0,-34.37761 -158.583904,0 z m 0,-44.47775 158.583904,0 0,-34.37761 -158.583904,0 z m 0,-44.47545 158.583904,0 0,-34.37761 -158.583904,0 z m 187.390186,-44.47775 158.586154,0 0,-34.37761 -158.586154,0 z M 433.61031,23.975317 l -228.85042,0 0,34.377607 228.85042,0 z m -174.70682,227.568293 0,146.22629 c 0,9.4928 7.59644,17.18881 16.97149,17.18881 l 158.16527,0 c 9.37505,0 16.97149,-7.69601 16.97149,-17.18881 l 0,-146.22629 c 0,-9.49281 -7.59644,-17.1888 -16.97149,-17.1888 l -158.16527,0 c -9.37505,0 -16.97149,7.69599 -16.97149,17.1888 z m 33.94298,17.1888 124.22229,0 0,111.84869 -124.22229,0 z m -405.15028,-74.5169 268.24917,0 c 9.37279,0 16.97149,-7.696 16.97149,-17.1888 l 0,-288.16456 c 0,-9.4928 -7.59644,-17.1888 -16.97149,-17.1888 l -268.24917,0 c -9.37279,0 -16.97149,7.696 -16.97149,17.1888 l 0,288.16456 c 0,9.4928 7.5987,17.1888 16.97149,17.1888 z m 16.971503,-288.164552 234.306167,0 0,253.786952 -234.306167,0 z M 508.55913,-291.29441 c -407.3651,-0.0156 -464.647919,-2.18274 -697.12123,0 0,0 0.22373,30.87754 0.22373,35.86229 l 0,675.42829 c 0,43.83604 35.21472,79.50166 78.49656,79.50166 l 541.42006,0 c 43.28184,0 78.49429,-35.66562 78.49429,-79.50166 l 0,-675.42829 c 0.003,-4.98475 2.20674,-32.59642 -1.51341,-35.86229 z m -32.42732,711.29288 c 0,24.88021 -19.98563,45.12404 -44.55129,45.12404 l -541.42233,0 c -24.56566,0 -44.55356,-20.24383 -44.55356,-45.12404 l 0,-571.04413 630.52718,0 z m 0,-605.42174 -193.66408,0 -436.8631,0 0,-62.1593 c 237.433839,-0.56447 445.8743,0.95279 630.52493,0 l 0,62.1593 z m -42.5215,298.35179 -228.85042,0 0,34.37761 228.85042,0 z m 0,-195.120417 -228.85042,0 0,34.377606 228.85042,0 z m 0,61.69176 -228.85042,0 0,34.377606 228.85042,0 z m 0,88.953201 -228.85042,0 0,34.377606 228.85042,0 z"
+										style="fill:#347b96;fill-opacity:1"
+										inkscape:export-xdpi="58.247456"
+										inkscape:export-ydpi="58.247456"
+									></path>
+								</g>
+								<path
+									inkscape:export-ydpi="58.247456"
+									inkscape:export-xdpi="58.247456"
+									inkscape:connector-curvature="0"
+									id="path3386"
+									d="m 209.01198,215.88158 c -5.29485,-1.13344 -9.87091,-4.54017 -12.32126,-9.17278 l -1.48892,-2.81495 -0.14991,-74.79138 -0.1499,-74.791384 26.36333,-0.30776 c 14.49983,-0.16927 50.85294,-0.13899 80.78468,0.0673 l 54.42136,0.37505 0.15453,72.165054 c 0.0944,44.10997 -0.0574,73.41088 -0.39065,75.36967 -0.72409,4.25632 -2.58136,7.44865 -5.88615,10.11727 -5.44224,4.39462 0.32006,4.06907 -73.65772,4.16144 -37.0863,0.0463 -66.46505,-0.11756 -67.67939,-0.37751 z m 132.51621,-6.64451 c 1.18389,-0.29528 3.04028,-1.23693 4.12531,-2.09255 3.85477,-3.03977 3.69465,-0.18875 3.69465,-65.78424 l 0,-59.021044 -73.51157,0 -73.51157,0 0.0125,59.753694 c 0.0119,56.99965 0.061,59.84804 1.06454,61.80092 0.57862,1.12598 1.70263,2.58507 2.49782,3.24243 3.24056,2.6789 1.06104,2.59697 69.65177,2.61805 42.85385,0.0131 64.53124,-0.15679 65.97654,-0.51726 z m 7.53053,-137.261954 c 0.20773,-2.04084 0.29371,-4.96912 0.19109,-6.5073 l -0.18659,-2.79668 -73.36911,-0.17201 -73.3691,-0.17202 0,6.67931 0,6.67931 73.17802,0 73.17802,0 0.37767,-3.71061 z"
+									style="fill:#347b96;fill-opacity:0"
+								></path>
+								<path
+									inkscape:export-ydpi="58.247456"
+									inkscape:export-xdpi="58.247456"
+									inkscape:connector-curvature="0"
+									id="path3388"
+									d="m 209.01198,215.87629 c -5.08419,-1.0758 -9.61084,-4.3555 -12.29984,-8.91159 l -1.51034,-2.55904 -0.1517,-75.06943 -0.1517,-75.069444 11.54884,-0.23134 c 17.38705,-0.34828 149.3882,0.2052 149.89468,0.62851 0.24224,0.20245 0.37046,33.74684 0.28493,74.543094 -0.14757,70.39771 -0.20845,74.29734 -1.19554,76.57769 -2.13294,4.92751 -7.52954,8.99639 -13.37689,10.08581 -3.71423,0.692 -129.77353,0.69744 -133.04244,0.006 l 0,1e-5 z m 135.25028,-7.88797 c 1.33102,-0.84448 2.95574,-2.45668 3.61049,-3.58266 1.18479,-2.03747 1.19126,-2.33368 1.35713,-62.05683 l 0.16667,-60.009594 -73.53577,0 -73.53577,0 0.003,59.241884 c 0.002,39.17229 0.20257,59.88669 0.59176,61.14527 0.64553,2.08757 2.8291,4.68603 4.73771,5.63789 0.67139,0.33484 2.50289,0.76026 4.07,0.94538 1.5671,0.18512 31.48398,0.30902 66.48193,0.27533 l 63.63264,-0.0612 2.42002,-1.53543 z m 4.79646,-136.013204 c 0.20773,-2.04084 0.29371,-4.9049 0.19109,-6.36458 l -0.18659,-2.65395 -73.36911,-0.33895 -73.3691,-0.33895 0,6.70352 0,6.70352 73.17802,0 73.17802,0 0.37767,-3.71061 z"
+									style="fill:#347b96;fill-opacity:0"
+								></path>
+								<g id="g17" transform="translate(0,-162.34399)"></g>
+								<g id="g19" transform="translate(0,-162.34399)"></g>
+								<g id="g21" transform="translate(0,-162.34399)"></g>
+								<g id="g23" transform="translate(0,-162.34399)"></g>
+								<g id="g25" transform="translate(0,-162.34399)"></g>
+								<g id="g27" transform="translate(0,-162.34399)"></g>
+								<g id="g29" transform="translate(0,-162.34399)"></g>
+								<g id="g31" transform="translate(0,-162.34399)"></g>
+								<g id="g33" transform="translate(0,-162.34399)"></g>
+								<g id="g35" transform="translate(0,-162.34399)"></g>
+								<g id="g37" transform="translate(0,-162.34399)"></g>
+								<g id="g39" transform="translate(0,-162.34399)"></g>
+								<g id="g41" transform="translate(0,-162.34399)"></g>
+								<g id="g43" transform="translate(0,-162.34399)"></g>
+								<g id="g45" transform="translate(0,-162.34399)"></g>
+							</g>
+						</svg>
+						<h3 class="mt-3">Resportes Estadisticos</h3>
+					</div>
+				</div>
+			</section>
+
+			<section id="contacto" class="contacto container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Contactos de Soporte SACE</h2>
+						<p class="text-faded">Línea Gratuita y Correo Electrónico de Atención y Denuncias</p>
+					</div>
+				</div>
+				<div class="container pt-4">
+					<div class="row text-center w-100">
+						<div class="col-lg-6 ">
+							<i class="fa fa-phone fa-3x sr-contact"><p class="pt-3" style="font-size: 18px">104</p></i>
+						</div>
+						<div class="col-lg-6">
+							<i class="fa fa-envelope-o fa-3x sr-contact"
+								><p class="pt-3" style="font-size: 18px"><a href="mailto:soportematricula@educatrachos.hn">soportematricula@educatrachos.hn </a></p></i
+							>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="container">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.556828316662!2d-87.20843188459064!3d14.044263690158749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd73ee3ee023%3A0xd24c529a2f745b44!2sInstituto+Nacional+de+Investigacion+y+Capacitacion+Educativa!5e0!3m2!1ses!2ses!4v1502141531748"
+							width="100%"
+							height="350"
+							frameborder="0"
+							style="border:0"
+							allowfullscreen=""
+						></iframe>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="container">
+						<div class="col-12">
+							<p>Colonia Mirador de Loarque, Tegucigalpa M.D.C, Honduras C.A.</p>
+							<img src="img/hnd-p.png" alt="Honduras" />
+							<p>
+								Honduras, C.A.| USINIEH.
+							</p>
+							<hr class="bg-primary w-100" />
+						</div>
+						<div class="row text-center">
+							<div class="col-lg-6">
+								<h2>Redes sociales</h2>
+								<hr class="bg-primary w-25" />
+								<a href="https://www.facebook.com/SACE.SEDUC" target="blank" class="btn btn-success" style="background-color: #415E9B;"
+									>www.facebook.com/SACE.SEDUC</a>
+								<a href="https://twitter.com/SACE_SEDUC" target="blank" class="btn btn-success" style="background-color: #01B7EE;"
+									>twitter.com/SACE_SEDUC</a>
+								<hr class="bg-primary w-25" />
+								<a href="http://www.se.gob.hn" target="blank" class="btn btn-success btn-mini">www.se.gob.hn</a>
+							</div>
+							<div class="col-lg-6">
+								<h2>Secretaria de Educacion</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="modal fade" id="sesionModal" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-tittle text-center">
+								Sistema de Administración de Centros Educativos(SACE)
+							</h5>
+							<button class="close" type="button" data-dismiss="modal" aria-label="close">
+								<span aria-hidden="true"></span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="container">
+								<img src="img/logoSE.png" class="img-fluid" alt="Logo Sace" />
+								<form action="" class="form-group pt-5">
+									<input type="text" class="form-control mb-2" id="user" aria-describedby="user" placeholder="Ingresa Usuario" />
+									<input type="password" class="form-control" id="password" aria-describedby="password" placeholder="Ingresa Contraseña" />
+								</form>
+							</div>
+						</div>
+						<div class="modal-footer justify-content-center">
+							<button type="button" class="btn btn-primary">Ingresar</button>
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <script src="js/jquery.slim.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
